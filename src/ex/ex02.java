@@ -10,13 +10,13 @@ public class ex02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		  Scanner scn =new Scanner(System.in);
+		  System.out.println("輸入數字=");
 		   int a=scn.nextInt();
-		   
-		   System.out.println(verb(a));}
+		   System.out.println("結果="+verb(a));}
 	
-	
-    public static String verb (int a){  Scanner scn =new Scanner(System.in);
-    	String b="";int c=scn.nextInt();while(a>0){
+	public static String verb (int a){  Scanner scn =new Scanner(System.in);
+    	String b=""; 		  System.out.println("轉換的進制=");
+    	int c=scn.nextInt();while(a>0){
     		b=Integer.toString(a%c)+b;
     	    a/=c;	 
     	    	 
