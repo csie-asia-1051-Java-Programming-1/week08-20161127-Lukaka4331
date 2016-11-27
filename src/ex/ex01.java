@@ -16,7 +16,7 @@ public class ex01 {
 	public static String verb (int a){
 		 String b="";
 	     while(a>0){
-		b=Integer.toString(a%2)+b;
+		b=a%2+b;
 	    a/=2;	 
 	    	 
 	    	 
